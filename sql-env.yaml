@@ -1,0 +1,9 @@
+sqlenv:
+  - name: MYSQL_ROOT_PASSWORD
+    value: "admin"
+  - name: MYSQL_DATABASE
+    value: "wordpress"  # Common to use 'wordpress' as the database name
+  - name: MYSQL_USER
+    value: "admin"
+  - name: MYSQL_PASSWORD
+    value: "admin"
