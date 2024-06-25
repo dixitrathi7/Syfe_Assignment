@@ -19,8 +19,8 @@ chmod 700 get_helm.sh
 ```
 
 ##### Create the Helm for k8s
-- I create the helm to deploy Wordpress resources with Persistent storage click [Here](http;//12.2)
-- To see helm for Mysql with Persistent storage ckick [here](http://vnefj) 
+- I create the helm to deploy Wordpress resources with Persistent storage click [Here](https://github.com/dixitrathi7/Syfe_Assignment/tree/main/helm-wordpress)
+- To see helm for Mysql with Persistent storage click [here](https://github.com/dixitrathi7/Syfe_Assignment/tree/main/helm-sql) 
 ##### Add Helm chart
 Add these helm chart into your helm and install it for create the resources into your cluster to deploy wordpress application 
 ```sh
