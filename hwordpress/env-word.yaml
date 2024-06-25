@@ -1,0 +1,9 @@
+sqlenv:
+ - name: "WORDPRESS_DB_HOST"
+   value: "word-sql-db:3306"  # Ensure it points to the service name with the port
+ - name: "WORDPRESS_DB_NAME"
+   value: "wordpress"  # Database name should match MySQL env
+ - name: "WORDPRESS_DB_USER"
+   value: "admin"  # Ensure it matches the MySQL user
+ - name: "WORDPRESS_DB_PASSWORD"
+   value: "admin"  # Ensure it matches the MySQL password
